@@ -14,8 +14,8 @@ ul {
 }
 
 body {
-    background: #faf6ed;
-    color: #222;
+    background: #EBF3E8;
+    color: #3A4D39;
     -webkit-font-smoothing: antialised;
     display: grid;
     grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
@@ -25,7 +25,7 @@ body {
     grid-column: 3 / 5;
      margin-top: 2rem;
      margin-bottom: 2rem;
-     background: #fb5;
+     background: #739072;
 }
 
 .menu ul{
@@ -38,7 +38,7 @@ body {
     display: block;
     padding: 10px;
     margin-right: 10px;
-    color: #222;
+    color: #EBF3E8;
     text-decoration: none;
     font-family: monospace;
     font-weight: bold;
@@ -73,7 +73,7 @@ body {
     width: 40px;
     height: 10px;
     margin-right: 10px;
-    background: #fb5;
+    background: #739072;
 }
 .animais h2{
     font-family: monospace;
@@ -81,7 +81,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .1em;
     margin-bottom: 1rem;
-    color: #e54;
+    color: #ED7D31;
 }
 .animais p {
     font-family: Helvetica;
@@ -100,13 +100,13 @@ body {
 }
 
 .animais-lista::-webkit-scrollbar-thumb{
-    background-color: #fb5;
+    background-color: #739072;
     border-left: 4px solid #faf6ed;
     border-right: 4px solid #faf6ed;
 }
 
 .animais-lista::-webkit-scrollbar-track{
-    background: #faf6ed;
+    background: #EBF3E8;
 }
 
 .animais-descricao{
@@ -136,7 +136,7 @@ body {
     width: 20px;
     height: 10px;
     margin-right: 10px;
-    background: #fb5;
+    background: #739072;
 }
 
 .faq-lista dd{
@@ -165,16 +165,17 @@ body {
     width: 20px;
     height: 10px;
     margin-right: 10px;
-    background: #fb5;
+    background: #739072;
 }   
 
 .copy{
     grid-column: 3/5;
     margin-bottom: 2rem;
-    background-color: #fb5;;
+    background-color: #739072;;
 }
 
 .copy p{
+    color: #EBF3E8;
     padding: 20px;
     font-family: monospace;
     font-weight: bold;
@@ -184,7 +185,7 @@ body {
 @media (max-width: 700px){
 
     body{
-        grid-template-columns: 1ft;
+        grid-template-columns: 1fr;
     }
     .menu, .grid-section,.copy{
         grid-column: 1;
@@ -205,7 +206,7 @@ body {
     .menu{
         margin-top: 0px;
     }
-    .menu{
+    .copy{
         margin-bottom: 0px;
     }
 
