@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+<html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <title>Gatos Fodas</title>
-    <script src="script.js"></script>
+    <script>
+        document.documentElement.className += ' js';</script>
 </head>
 <body>
 
@@ -20,7 +21,7 @@
 
     <section class="grid-section animais" id="animais">
         <h1 class="titulo">Gatos Fodas</h1>
-        <ul class="animais-lista">
+        <ul class="js-tabmenu animais-lista">
             <li>
                 <img src="img-gatos/gato bebado.webp">
             </li>
@@ -40,7 +41,7 @@
                 <img src="img-gatos/gato-pidao.webp">
             </li>
         </ul>
-        <div class="animais-descricao">
+        <div class="animais-descricao js-tabcontent">
             <section>
                 <h2>Raposa</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -165,6 +166,6 @@
     </footer>
 
 
-    <script scr="main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

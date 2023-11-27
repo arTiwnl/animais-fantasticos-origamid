@@ -94,6 +94,9 @@ body {
     overflow-y: scroll;
     grid-column: 2;
 }
+.animais-lista li{
+    cursor: pointer;
+}
 
 .animais-lista::-webkit-scrollbar{
     width: 18px;
@@ -104,6 +107,8 @@ body {
     border-left: 4px solid #faf6ed;
     border-right: 4px solid #faf6ed;
 }
+
+
 
 .animais-lista::-webkit-scrollbar-track{
     background: #EBF3E8;
@@ -211,4 +216,25 @@ body {
     }
 
 
+}
+
+
+.js .js-tabcontent section{
+    display: none;
+}
+
+.js-tabcontent section.ativo{
+    display: block !important;
+    animation: show .5s forwards;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }
