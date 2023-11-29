@@ -90,7 +90,7 @@ function scrollAnimation(){
   const sections = document.querySelectorAll('.js-scroll');
 
   if(sections.length) {
-    const halfWindow = window.innerHeight * 0.6;
+    const halfWindow = window.innerHeight * 0.8;
 
     function animaScroll() {
         sections.forEach((section) =>{
@@ -108,4 +108,5 @@ function scrollAnimation(){
 }
 
 }
+
 scrollAnimation();
